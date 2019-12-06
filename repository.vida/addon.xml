@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.vida" name="[B][COLOR blue]  Vida  [COLOR blue]Repositorio Vida Oficial![/B][/COLOR]" 
+version="1.00" 
+provider-name="Vida TEAM">">
+	<requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.simplejson" />    
+  <extension point="xbmc.addon.repository" name="">
+		<info compressed="false">http://raw.github.com/ADDONVIDA/repository.vida/master/addons.xml</info>
+		<checksum>http://raw.github.com/ADDONVIDA/repository.vida/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/ADDONVIDA/repository.vida/master/zip/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repositorio Vida</summary>
+		<description>Repositorio oficial Addon Vida - Proibido reproducao sem previa autorizacao</description>
+		<news>
+		Os addons que será instalado, não é hospedado, tampouco o conteúdo dos mesmos é de responsabilidade da Vikings Build. O autor não é responsável pelo uso incorreto ou pelo conteúdo encontrado nestes addons!!
+</news>
+		
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
